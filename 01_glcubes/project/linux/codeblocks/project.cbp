@@ -32,7 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 			<Add directory="../../../source" />
-			<Add directory="../../../" />
+			<Add directory="../../../../00_common" />
 			<Add directory="../../../source/platform/linux" />
 		</Compiler>
 		<ResourceCompiler>

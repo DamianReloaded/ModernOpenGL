@@ -1,7 +1,7 @@
 #ifndef reload_glcubes01_cube_H
 #define reload_glcubes01_cube_H
 
-#include <dependencies/glm.h>
+#include <libraries/glm.h>
 #include <vector>
 
 namespace reload {
