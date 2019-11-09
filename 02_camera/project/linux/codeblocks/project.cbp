@@ -59,17 +59,21 @@
 		</Unit>
 		<Unit filename="../../../source/application.cpp" />
 		<Unit filename="../../../source/application.h" />
-		<Unit filename="../../../source/cube.cpp" />
-		<Unit filename="../../../source/cube.h" />
+		<Unit filename="../../../source/camera.cpp" />
+		<Unit filename="../../../source/camera.h" />
 		<Unit filename="../../../source/display.cpp" />
 		<Unit filename="../../../source/display.h" />
 		<Unit filename="../../../source/main.cpp" />
+		<Unit filename="../../../source/mesh.cpp" />
+		<Unit filename="../../../source/mesh.h" />
 		<Unit filename="../../../source/platform/linux/display.implementation.cpp" />
 		<Unit filename="../../../source/platform/linux/display.implementation.h" />
 		<Unit filename="../../../source/program.cpp" />
 		<Unit filename="../../../source/program.h" />
 		<Unit filename="../../../source/state.cpp" />
 		<Unit filename="../../../source/state.h" />
+		<Unit filename="../../../source/transform.cpp" />
+		<Unit filename="../../../source/transform.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
