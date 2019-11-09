@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../bin/Debug/glcubes01" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../bin/obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../bin/Release/project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../bin/obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../source" />
+			<Add directory="../../../" />
+			<Add directory="../../../source/platform/linux" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add option="-std=c++17" />
+		</ResourceCompiler>
+		<Linker>
+			<Add library="X11" />
+			<Add library="GL" />
+			<Add library="GLU" />
+			<Add library="Xrandr" />
+			<Add library="GLEW" />
+		</Linker>
+		<Unit filename="../../../shaders/fragment.shader.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../../../shaders/vertex.shader.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../../../source/application.cpp" />
+		<Unit filename="../../../source/application.h" />
+		<Unit filename="../../../source/cube.cpp" />
+		<Unit filename="../../../source/cube.h" />
+		<Unit filename="../../../source/display.cpp" />
+		<Unit filename="../../../source/display.h" />
+		<Unit filename="../../../source/main.cpp" />
+		<Unit filename="../../../source/platform/linux/display.implementation.cpp" />
+		<Unit filename="../../../source/platform/linux/display.implementation.h" />
+		<Unit filename="../../../source/program.cpp" />
+		<Unit filename="../../../source/program.h" />
+		<Unit filename="../../../source/state.cpp" />
+		<Unit filename="../../../source/state.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
