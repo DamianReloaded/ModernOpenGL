@@ -1,5 +1,5 @@
-#ifndef reload_glcubes01_display_implementation_H
-#define reload_glcubes01_display_implementation_H
+#ifndef reload_mopengl_display_implementation_H
+#define reload_mopengl_display_implementation_H
 
 #include <display.h>
 #include <X11/Xlib.h>
@@ -48,6 +48,8 @@ namespace reload {
             GLXContext              context;
             XSetWindowAttributes    attributes;
             XVisualInfo*            visualinfo;
+            int                     xoffset;
+            int                     yoffset;
             int                     width;
             int                     height;
             bool                    fullscreen;

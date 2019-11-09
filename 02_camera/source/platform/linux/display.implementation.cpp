@@ -7,8 +7,10 @@ Atom display::implementation::wmdelete;
 
 display::implementation::implementation()
 {
-    width = 1024;
-    height = 768;
+    xoffset = 0;
+    yoffset = 0;
+    width = 1920;
+    height = 1080;
     fullscreen = true;
     resource = 0;
     inputmask = FocusChangeMask | ButtonPressMask | ButtonReleaseMask   | ButtonMotionMask | PointerMotionMask |
@@ -188,5 +190,5 @@ void display::implementation::add_resource (const int& _x, const int& _y, const 
     resources.back().height   = _h;
     resources.back().rotation = _rotation;
 
-    if (resources.back().width == width && resources.back().height == height ) resource = resources.size()-1;
+    if ( resources.back().x == xoffset && resources.back().y == yoffset && resources.back().width == width && resources.back().height == height ) resource = resources.size()-1;
 }

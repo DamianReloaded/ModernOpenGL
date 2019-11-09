@@ -2,12 +2,10 @@
 
 using namespace reload;
 
-
-
 application::application() : m_default_state(this)
 {
     m_running = true;
-    m_display = std::make_unique<display>(this);
+    m_display = std::make_unique<reload::display>(this);
     m_state   = &m_default_state;
 }
 
@@ -38,4 +36,9 @@ int application::run ()
 void application::exit()
 {
     m_running = false;
+}
+
+reload::display* application::display()
+{
+    return m_display.get();
 }

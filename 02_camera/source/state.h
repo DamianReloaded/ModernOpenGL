@@ -1,8 +1,9 @@
-#ifndef reload_glcubes01_state_H
-#define reload_glcubes01_state_H
+#ifndef reload_mopengl_state_H
+#define reload_mopengl_state_H
 
-#include "cube.h" // hack a cube here for now
-#include "program.h" // hack a shader program
+#include "mesh.h"
+#include "camera.h"
+#include "program.h"
 
 namespace reload {
     class application;
@@ -18,7 +19,9 @@ namespace reload {
 
         protected:
             application*    m_application;
-            cube            m_cube;
+            mesh            m_cube1;
+            mesh            m_cube2;
+            camera          m_camera;
             program         m_program;
 
 

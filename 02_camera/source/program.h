@@ -1,5 +1,5 @@
-#ifndef reload_glcubes01_program_H
-#define reload_glcubes01_program_H
+#ifndef reload_mopengl_program_H
+#define reload_mopengl_program_H
 
 #include <iostream>
 #include <string>

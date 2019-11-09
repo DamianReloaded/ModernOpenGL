@@ -1,12 +1,11 @@
-#include "cube.h"
+#include "mesh.h"
+#include "program.h"
 #include <GL/glew.h>
 
 using namespace reload;
 
-cube::cube()
+mesh::mesh()
 {
-    m_scale_matrix = glm::scale(glm::vec3(1.0f,1.0f,1.0f));
-
     m_vertices = {
                     -1.0f,-1.0f,-1.0f,  -1.0f,-1.0f, 1.0f,  -1.0f, 1.0f, 1.0f,
                      1.0f, 1.0f,-1.0f,  -1.0f,-1.0f,-1.0f,  -1.0f, 1.0f,-1.0f,
@@ -62,12 +61,12 @@ cube::cube()
              };
 }
 
-cube::~cube()
+mesh::~mesh()
 {
-    //dtor
+
 }
 
-void cube::create  ()
+void mesh::create  ()
 {
     glGenVertexArrays(2, &m_va[0]);
     glBindVertexArray(m_va[0]);
@@ -84,32 +83,26 @@ void cube::create  ()
     glEnableVertexAttribArray(1);
 }
 
-void cube::destroy ()
+void mesh::destroy ()
 {
 
 }
 
-float angle = 0;
+float angle=0.01f;
 
-void cube::draw (const uint32_t& _program_id)
+void mesh::update ()
 {
-    m_rotation = glm::vec3(0,1,angle);
-    angle+=0.01f;
-    glm::mat4 rotx = glm::rotate(m_rotation.x, glm::vec3(1.0, 0.0, 0.0));
-    glm::mat4 roty = glm::rotate(m_rotation.y, glm::vec3(0.0, 1.0, 0.0));
-    glm::mat4 rotz = glm::rotate(m_rotation.z, glm::vec3(0.0, 0.0, 1.0));
-    glm::mat4 rotmat = rotx * roty * rotz; //gotta be a better way to do this...
+    // Hack an animation here for the lols
+    angle -= 0.01;
+    transform.rotation = glm::vec3(0,1,angle);
+    transform.location.z = angle;
+    transform.update();
+}
 
-    glm::mat4 location = glm::translate(glm::mat4(), glm::vec3(0,0,-angle));
-
-    // hack the camera here for now
-    glm::mat4 projection = glm::perspective(glm::radians(45.0f), 1920.0f/1080.0f, 0.1f, 1000.0f);
-    glm::mat4 view       = glm::lookAt(glm::vec3(0,5,5),glm::vec3(0,0,0),glm::vec3(0,1,0));
-    glm::mat4 model      = location * rotmat * m_scale_matrix;
-    glm::mat4 mvp        = projection * view * model;
-    GLuint matrix_id     = glGetUniformLocation(_program_id, "mvp");
-    glUniformMatrix4fv(matrix_id, 1, GL_FALSE, &mvp[0][0]);
-
+void mesh::draw (reload::program* _program)
+{
+    uint32_t mvpid = glGetUniformLocation(_program->id(), "mvp");
+    glUniformMatrix4fv(mvpid, 1, GL_FALSE, &transform.mvp[0][0]);
     glBindVertexArray(m_va[0]);
     glDrawArrays(GL_TRIANGLES, 0, 36);
     glBindVertexArray(0);

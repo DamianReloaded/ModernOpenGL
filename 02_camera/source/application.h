@@ -1,6 +1,7 @@
-#ifndef reload_glcubes01_application_H
-#define reload_glcubes01_application_H
+#ifndef reload_mopengl_application_H
+#define reload_mopengl_application_H
 
+#include <memory>
 #include <display.h>
 #include <state.h>
 
@@ -9,19 +10,18 @@ namespace reload {
     class application
     {
         public:
-                                        application     ();
-            virtual                     ~application    ();
+                                                application     ();
+            virtual                             ~application    ();
 
-            int                         run             ();
-            void                        exit            ();
+            int                                 run             ();
+            void                                exit            ();
+            reload::display*                    display         ();
 
         protected:
-            std::unique_ptr<display>    m_display;
-            reload::state*              m_state;
-            bool                        m_running;
-
-        private:
-            reload::state               m_default_state;
+            std::unique_ptr<reload::display>    m_display;
+            reload::state*                      m_state;
+            bool                                m_running;
+            reload::state                       m_default_state;
     };
 }
-#endif // reload_glcubes01_application_H
+#endif // reload_mopengl_application_H

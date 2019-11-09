@@ -1,5 +1,5 @@
-#ifndef reload_glcubes01_CLASSNAME_H
-#define reload_glcubes01_CLASSNAME_H
+#ifndef reload_mopengl_CLASSNAME_H
+#define reload_mopengl_CLASSNAME_H
 
 namespace reload {
     class classname

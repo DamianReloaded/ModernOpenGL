@@ -1,5 +1,5 @@
-#ifndef reload_glcubes01_display_H
-#define reload_glcubes01_display_H
+#ifndef reload_mopengl_display_H
+#define reload_mopengl_display_H
 
 #include <memory>
 
