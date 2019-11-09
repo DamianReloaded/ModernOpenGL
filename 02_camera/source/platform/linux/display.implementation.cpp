@@ -7,7 +7,7 @@ Atom display::implementation::wmdelete;
 
 display::implementation::implementation()
 {
-    xoffset = 1920;
+    xoffset = 0;
     yoffset = 0;
     width = 1920;
     height = 1080;
