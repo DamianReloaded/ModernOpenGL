@@ -1,6 +1,4 @@
-# OpenGL Camera
+# Setting up C++ project for modern OpenGL development
 
-Add classes for
-  - Camera
-  - Transformation
-  - Mesh
+A bit of xlib wizzardy to get the display properly configured.
+Shaders and a cube.
