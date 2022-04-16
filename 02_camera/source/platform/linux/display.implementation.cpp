@@ -7,7 +7,7 @@ Atom display::implementation::wmdelete;
 
 display::implementation::implementation()
 {
-    xoffset = 0;
+    xoffset = 1920*(2);
     yoffset = 0;
     width = 1920;
     height = 1080;
@@ -16,13 +16,7 @@ display::implementation::implementation()
     inputmask = FocusChangeMask | ButtonPressMask | ButtonReleaseMask   | ButtonMotionMask | PointerMotionMask |
                 KeyPressMask    | KeyReleaseMask  | StructureNotifyMask | EnterWindowMask  | LeaveWindowMask;
 
-    attributelist = { GLX_RENDER_TYPE,      GLX_RGBA_BIT,
-                      GLX_DRAWABLE_TYPE,    GLX_WINDOW_BIT,
-                      GLX_X_VISUAL_TYPE,    GLX_TRUE_COLOR,
-                      GLX_RED_SIZE,         8,
-                      GLX_GREEN_SIZE,       8,
-                      GLX_BLUE_SIZE,        8,
-                      GLX_ALPHA_SIZE,       8,
+    attributelist = { GLX_RGBA,
                       GLX_DEPTH_SIZE,       24,
                       GLX_STENCIL_SIZE,     8,
                       GLX_DOUBLEBUFFER,     True,

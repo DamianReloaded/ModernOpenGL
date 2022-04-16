@@ -461,10 +461,10 @@
 	<vector>
 	<GL/glew.h>
 
-1556817343 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/display.cpp
+1650093708 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/display.cpp
 	"display.implementation.h"
 
-1573338987 /home/damian/Coding/github/ModernOpenGL/02_camera/source/platform/linux/display.implementation.h
+1650093708 /home/damian/Coding/github/ModernOpenGL/02_camera/source/platform/linux/display.implementation.h
 	<display.h>
 	<X11/Xlib.h>
 	<GL/glew.h>
@@ -477,18 +477,18 @@
 	<vector>
 	<deque>
 
-1573338501 /home/damian/Coding/github/ModernOpenGL/02_camera/source/display.h
+1650093708 /home/damian/Coding/github/ModernOpenGL/02_camera/source/display.h
 	<memory>
 
-1573340523 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/application.cpp
+1650093708 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/application.cpp
 	"application.h"
 
-1573340454 /home/damian/Coding/github/ModernOpenGL/02_camera/source/application.h
+1650093708 /home/damian/Coding/github/ModernOpenGL/02_camera/source/application.h
 	<memory>
 	<display.h>
 	<state.h>
 
-1573340177 /home/damian/Coding/github/ModernOpenGL/02_camera/source/state.h
+1650093708 /home/damian/Coding/github/ModernOpenGL/02_camera/source/state.h
 	"mesh.h"
 	"camera.h"
 	"program.h"
@@ -497,7 +497,7 @@
 	<libraries/glm.h>
 	<vector>
 
-1573333836 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm.h
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm.h
 	<libraries/glm/glm.hpp>
 	<libraries/glm/gtx/transform.hpp>
 	<glm/gtc/quaternion.hpp>
@@ -505,7 +505,7 @@
 	<glm/gtc/matrix_transform.hpp>
 	<glm/gtc/type_ptr.hpp>
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/glm.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/glm.hpp
 	"detail/_fixes.hpp"
 	<cmath>
 	<climits>
@@ -534,20 +534,20 @@
 	"vector_relational.hpp"
 	"integer.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/_fixes.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/_fixes.hpp
 	<cmath>
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/fwd.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/fwd.hpp
 	"detail/type_int.hpp"
 	"detail/type_float.hpp"
 	"detail/type_vec.hpp"
 	"detail/type_mat.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_int.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_int.hpp
 	"setup.hpp"
 	<cstdint>
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/setup.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/setup.hpp
 	<cassert>
 	<cuda.h>
 	<intrin.h>
@@ -557,50 +557,50 @@
 	<pmmintrin.h>
 	<emmintrin.h>
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_float.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_float.hpp
 	"setup.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec.hpp
 	"precision.hpp"
 	"type_int.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/precision.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/precision.hpp
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat.hpp
 	"precision.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/vec2.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/vec2.hpp
 	"detail/type_vec2.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec2.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec2.hpp
 	"type_vec.hpp"
 	"_swizzle.hpp"
 	"_swizzle_func.hpp"
 	<cstddef>
 	"type_vec2.inl"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/_swizzle.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/_swizzle.hpp
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/_swizzle_func.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/_swizzle_func.hpp
 
-1393354077 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec2.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec2.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/vec3.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/vec3.hpp
 	"detail/type_vec3.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec3.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec3.hpp
 	"type_vec.hpp"
 	"_swizzle.hpp"
 	"_swizzle_func.hpp"
 	<cstddef>
 	"type_vec3.inl"
 
-1393354077 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec3.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec3.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/vec4.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/vec4.hpp
 	"detail/type_vec4.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec4.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec4.hpp
 	"setup.hpp"
 	"type_vec.hpp"
 	"_swizzle.hpp"
@@ -608,24 +608,24 @@
 	<cstddef>
 	"type_vec4.inl"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec4.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec4.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat2x2.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat2x2.hpp
 	"detail/type_mat2x2.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat2x2.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat2x2.hpp
 	"../fwd.hpp"
 	"type_vec2.hpp"
 	"type_mat.hpp"
 	<limits>
 	"type_mat2x2.inl"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat2x2.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat2x2.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat2x3.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat2x3.hpp
 	"detail/type_mat2x3.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat2x3.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat2x3.hpp
 	"../fwd.hpp"
 	"type_vec2.hpp"
 	"type_vec3.hpp"
@@ -633,12 +633,12 @@
 	<limits>
 	"type_mat2x3.inl"
 
-1393351993 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat2x3.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat2x3.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat2x4.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat2x4.hpp
 	"detail/type_mat2x4.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat2x4.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat2x4.hpp
 	"../fwd.hpp"
 	"type_vec2.hpp"
 	"type_vec4.hpp"
@@ -646,12 +646,12 @@
 	<limits>
 	"type_mat2x4.inl"
 
-1393351993 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat2x4.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat2x4.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat3x2.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat3x2.hpp
 	"detail/type_mat3x2.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat3x2.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat3x2.hpp
 	"../fwd.hpp"
 	"type_vec2.hpp"
 	"type_vec3.hpp"
@@ -659,24 +659,24 @@
 	<limits>
 	"type_mat3x2.inl"
 
-1393351993 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat3x2.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat3x2.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat3x3.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat3x3.hpp
 	"detail/type_mat3x3.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat3x3.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat3x3.hpp
 	"../fwd.hpp"
 	"type_vec3.hpp"
 	"type_mat.hpp"
 	<limits>
 	"type_mat3x3.inl"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat3x3.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat3x3.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat3x4.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat3x4.hpp
 	"detail/type_mat3x4.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat3x4.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat3x4.hpp
 	"../fwd.hpp"
 	"type_vec3.hpp"
 	"type_vec4.hpp"
@@ -684,12 +684,12 @@
 	<limits>
 	"type_mat3x4.inl"
 
-1393351993 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat3x4.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat3x4.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat4x2.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat4x2.hpp
 	"detail/type_mat4x2.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat4x2.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat4x2.hpp
 	"../fwd.hpp"
 	"type_vec2.hpp"
 	"type_vec4.hpp"
@@ -697,12 +697,12 @@
 	<limits>
 	"type_mat4x2.inl"
 
-1393351993 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat4x2.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat4x2.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat4x3.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat4x3.hpp
 	"detail/type_mat4x3.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat4x3.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat4x3.hpp
 	"../fwd.hpp"
 	"type_vec3.hpp"
 	"type_vec4.hpp"
@@ -710,12 +710,12 @@
 	<limits>
 	"type_mat4x3.inl"
 
-1393351993 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat4x3.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat4x3.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat4x4.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/mat4x4.hpp
 	"detail/type_mat4x4.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat4x4.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat4x4.hpp
 	"../fwd.hpp"
 	"type_vec4.hpp"
 	"type_mat.hpp"
@@ -723,26 +723,26 @@
 	<cstddef>
 	"type_mat4x4.inl"
 
-1393351993 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat4x4.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_mat4x4.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/trigonometric.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/trigonometric.hpp
 	"detail/func_trigonometric.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_trigonometric.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_trigonometric.hpp
 	"func_trigonometric.inl"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_trigonometric.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_trigonometric.inl
 	"_vectorize.hpp"
 	<cmath>
 	<limits>
 
-1393351993 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/_vectorize.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/_vectorize.hpp
 	"type_vec1.hpp"
 	"type_vec2.hpp"
 	"type_vec3.hpp"
 	"type_vec4.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec1.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec1.hpp
 	"../fwd.hpp"
 	"type_vec.hpp"
 	"_swizzle.hpp"
@@ -750,12 +750,12 @@
 	<cstddef>
 	"type_vec1.inl"
 
-1393354077 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec1.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_vec1.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/exponential.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/exponential.hpp
 	"detail/func_exponential.hpp"
 
-1393351993 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_exponential.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_exponential.hpp
 	"type_vec1.hpp"
 	"type_vec2.hpp"
 	"type_vec3.hpp"
@@ -763,31 +763,31 @@
 	<cmath>
 	"func_exponential.inl"
 
-1396394862 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_exponential.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_exponential.inl
 	"func_vector_relational.hpp"
 	"_vectorize.hpp"
 	<limits>
 	<cassert>
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_vector_relational.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_vector_relational.hpp
 	"precision.hpp"
 	"setup.hpp"
 	"func_vector_relational.inl"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_vector_relational.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_vector_relational.inl
 	<limits>
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/common.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/common.hpp
 	"detail/func_common.hpp"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_common.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_common.hpp
 	"setup.hpp"
 	"precision.hpp"
 	"type_int.hpp"
 	"_fixes.hpp"
 	"func_common.inl"
 
-1403287823 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_common.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_common.inl
 	"func_vector_relational.hpp"
 	"type_vec2.hpp"
 	"type_vec3.hpp"
@@ -795,43 +795,43 @@
 	"_vectorize.hpp"
 	<limits>
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/packing.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/packing.hpp
 	"detail/func_packing.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_packing.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_packing.hpp
 	"type_vec2.hpp"
 	"type_vec4.hpp"
 	"func_packing.inl"
 
-1403287823 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_packing.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_packing.inl
 	"func_common.hpp"
 	"type_half.hpp"
 	"../fwd.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_half.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_half.hpp
 	"setup.hpp"
 	"type_half.inl"
 
-1403287823 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_half.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/type_half.inl
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/geometric.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/geometric.hpp
 	"detail/func_geometric.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_geometric.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_geometric.hpp
 	"type_vec3.hpp"
 	"func_geometric.inl"
 
-1403287823 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_geometric.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_geometric.inl
 	"func_exponential.hpp"
 	"func_common.hpp"
 	"type_vec2.hpp"
 	"type_vec4.hpp"
 	"type_float.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/matrix.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/matrix.hpp
 	"detail/func_matrix.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_matrix.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_matrix.hpp
 	"../detail/precision.hpp"
 	"../detail/setup.hpp"
 	"../detail/type_mat.hpp"
@@ -849,21 +849,21 @@
 	"../mat4x4.hpp"
 	"func_matrix.inl"
 
-1403361214 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_matrix.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_matrix.inl
 	"../geometric.hpp"
 	<limits>
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/vector_relational.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/vector_relational.hpp
 	"detail/func_vector_relational.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/integer.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/integer.hpp
 	"detail/func_integer.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_integer.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_integer.hpp
 	"setup.hpp"
 	"func_integer.inl"
 
-1396394862 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_integer.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/detail/func_integer.inl
 	"type_vec2.hpp"
 	"type_vec3.hpp"
 	"type_vec4.hpp"
@@ -872,12 +872,12 @@
 	<intrin.h>
 	<limits>
 
-1396394829 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/gtx/transform.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/gtx/transform.hpp
 	"../glm.hpp"
 	"../gtc/matrix_transform.hpp"
 	"transform.inl"
 
-1403356713 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/gtc/matrix_transform.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/gtc/matrix_transform.hpp
 	"../mat4x4.hpp"
 	"../vec2.hpp"
 	"../vec3.hpp"
@@ -885,21 +885,21 @@
 	"../gtc/constants.hpp"
 	"matrix_transform.inl"
 
-1393351993 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/gtc/constants.hpp
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/gtc/constants.hpp
 	"../detail/setup.hpp"
 	"constants.inl"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/gtc/constants.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/gtc/constants.inl
 	<limits>
 
-1403356713 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/gtc/matrix_transform.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/gtc/matrix_transform.inl
 	"../geometric.hpp"
 	"../trigonometric.hpp"
 	"../matrix.hpp"
 
-1389479879 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/gtx/transform.inl
+1650093708 /home/damian/Coding/github/ModernOpenGL/00_common/libraries/glm/gtx/transform.inl
 
-1573338501 /home/damian/Coding/github/ModernOpenGL/02_camera/source/program.h
+1650093708 /home/damian/Coding/github/ModernOpenGL/02_camera/source/program.h
 	<iostream>
 	<string>
 
@@ -907,46 +907,46 @@
 	"cube.h"
 	<GL/glew.h>
 
-1573339289 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/main.cpp
+1650093708 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/main.cpp
 	<application.h>
 
 1573340601 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/platform/linux/display.implementation.cpp
 	"display.implementation.h"
 	"application.h"
 
-1556816900 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/program.cpp
+1650093708 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/program.cpp
 	"program.h"
 	<fstream>
 	<sstream>
 	<vector>
 	<GL/glew.h>
 
-1573340935 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/state.cpp
+1650093708 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/state.cpp
 	"state.h"
 	"application.h"
 	<GL/gl.h>
 
-1573340836 /home/damian/Coding/github/ModernOpenGL/02_camera/source/mesh.h
+1650093708 /home/damian/Coding/github/ModernOpenGL/02_camera/source/mesh.h
 	<libraries/glm.h>
 	<vector>
 	"transform.h"
 
-1573340871 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/mesh.cpp
+1650093708 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/mesh.cpp
 	"mesh.h"
 	"program.h"
 	<GL/glew.h>
 
-1573339747 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/camera.cpp
+1650093708 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/camera.cpp
 	"camera.h"
 
-1573339794 /home/damian/Coding/github/ModernOpenGL/02_camera/source/camera.h
+1650093708 /home/damian/Coding/github/ModernOpenGL/02_camera/source/camera.h
 	<memory>
 	<libraries/glm.h>
 	"transform.h"
 
-1573340009 /home/damian/Coding/github/ModernOpenGL/02_camera/source/transform.h
+1650093708 /home/damian/Coding/github/ModernOpenGL/02_camera/source/transform.h
 	<libraries/glm.h>
 
-1573340004 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/transform.cpp
+1650093708 source:/home/damian/Coding/github/ModernOpenGL/02_camera/source/transform.cpp
 	"transform.h"
 
