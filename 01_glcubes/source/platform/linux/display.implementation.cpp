@@ -9,18 +9,12 @@ display::implementation::implementation()
 {
     width = 1024;
     height = 768;
-    fullscreen = true;
+    fullscreen = false;
     resource = 0;
     inputmask = FocusChangeMask | ButtonPressMask | ButtonReleaseMask   | ButtonMotionMask | PointerMotionMask |
                 KeyPressMask    | KeyReleaseMask  | StructureNotifyMask | EnterWindowMask  | LeaveWindowMask;
 
-    attributelist = { GLX_RENDER_TYPE,      GLX_RGBA_BIT,
-                      GLX_DRAWABLE_TYPE,    GLX_WINDOW_BIT,
-                      GLX_X_VISUAL_TYPE,    GLX_TRUE_COLOR,
-                      GLX_RED_SIZE,         8,
-                      GLX_GREEN_SIZE,       8,
-                      GLX_BLUE_SIZE,        8,
-                      GLX_ALPHA_SIZE,       8,
+    attributelist = { GLX_RGBA,
                       GLX_DEPTH_SIZE,       24,
                       GLX_STENCIL_SIZE,     8,
                       GLX_DOUBLEBUFFER,     True,
